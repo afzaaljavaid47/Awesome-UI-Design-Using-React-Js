@@ -1,0 +1,49 @@
+.about{
+    padding: 5rem 3rem;
+}
+.about-img1{
+    width: 100%;
+    border-radius: 10px;
+}
+.about-txt{
+    font-size: 2rem;
+    line-height: 3rem;
+    letter-spacing: 1px;
+}
+.about-bck-txt{
+    font-size: 2rem;
+    line-height: 3rem;
+    letter-spacing: 1px;
+    
+}
+.fa-check{
+    color: #B23948;
+}
+.about-bck-img{
+    background: url('../../images/bg/bg-2.jpg') no-repeat center;
+    background-size: cover;
+}
+.text-bck-center{
+    padding: 5rem 2rem;
+    width: 60%;
+}
+@media only screen and (max-width: 768px) {
+    .about-txt{
+        width: 100%;
+        font-size: 1rem;
+        line-height: 2rem;
+        padding-top: 0;
+    }
+    p{
+        width: 100%;
+    }
+    .text-bck-center{
+        width: 100%;
+    }
+    .about-bck-txt{
+        font-size: 1.5rem;
+        line-height: 2rem;
+        letter-spacing: 1px;
+        width: 100%;
+    }
+    }

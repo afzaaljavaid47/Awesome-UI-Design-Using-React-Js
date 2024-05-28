@@ -1,0 +1,39 @@
+.hero-section{
+    width: 100%;
+    background: url(../../images/bg/bg-1.jpg) no-repeat center;
+    background-size: cover;
+    padding: 16.875rem 0 9.375rem;
+    overflow-x: hidden;
+}
+.order-btn1{
+    padding: 10px 30px;
+    color: var(--promaryColor);
+    font-weight: 500;
+    font-family: sans-serif;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin-left: 1rem;
+}
+.order-btn1:hover{
+    color: white;
+    background-color: var(--promaryColor);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+@media only screen and (max-width: 768px) {
+  .order-btn1{
+    margin-left: 0;
+    margin-top: 1rem;
+  }
+  .hero-section{
+    width: 100%;
+    background: url(../../images/bg/bg-1.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 16.875rem 0 9.375rem;
+    overflow-x: hidden;
+}
+.hero-section{
+    padding: 9.875rem 0 5.375rem;
+}
+  }

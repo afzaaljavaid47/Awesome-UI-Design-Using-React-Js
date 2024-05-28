@@ -1,0 +1,24 @@
+.counter-section{
+    background-color: var(--promaryColor);
+    width: 100%;
+    padding: 5rem 1rem;
+    font-size: 10px;
+}
+.count-style{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.count-txt{
+    font-size: 1rem;
+    font-weight: 400;
+    color: white;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .count-txt{
+        text-align: center;
+        width: 100%;
+    }
+    
+  }
